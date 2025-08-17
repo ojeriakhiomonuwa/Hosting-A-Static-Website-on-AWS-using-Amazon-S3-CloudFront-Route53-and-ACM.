@@ -15,7 +15,7 @@ It integrates with other AWS services like AWS Identity and Access Management (I
 4. **Amazon Certificate Manager (ACM):** AWS Certificate ManagerACM allows you to request public SSL/TLS (Secure Sockets Layer/Transport Layer Security) certificates for domain names used with AWS services, such as Amazon CloudFront, Elastic Load Balancing, Amazon API Gateway, and more.  
 
 
-### From our linked [article](https://github.com/ojeriakhiomonuwa/host-a-static-website-on-AWS-using-S3-buckets.git), already hosted our static website using S3 buckets, now we are going to configure route 53 for DNS management.  
+### From our linked [article](https://github.com/ojeriakhiomonuwa/host-a-static-website-on-AWS-using-S3-buckets.git), we already hosted our static website using S3 buckets, now we are going to configure route 53 for DNS management.  
 Prior to configuring Route53 for DNS management, We need to purchase a custom domain name from a domain registrar, you can buy a domain name on [Namecheap](https://www.namecheap.com/?gad_source=1&gad_campaignid=11301910042&gbraid=0AAAAADzFe20In8qs6XGEOZVPy4rnU8LB3&gclid=Cj0KCQjw-4XFBhCBARIsAAdNOkuJeTy14iGZeKkYNhMTZAQlr4sz35TfIU_7qiMxUcBPY12tTI4V7AYaAuGLEALw_wcB), or [Godaddy](https://www.godaddy.com/en-ph/offers/domain-airo?isc=sem3year&countryview=1&currencyType=USD&cdtl=c_22730426281.g_190146637388.k_kwd-350064496.a_764234124367.d_c.ctv_g&bnb=b&gad_source=1&gad_campaignid=22730426281&gbraid=0AAAAAD_AGdyYUzari23CY6-Zm5k2hnLDB&gclid=Cj0KCQjw-4XFBhCBARIsAAdNOksgqBiTjMBsu2za0DOnExrGtEgMGvoDy0rC8xUK8GgSdRy84IBPBvsaAliXEALw_wcB).   
 
 ### Next, on the AWS Console, search for Route53, click on it then click on hosted zones and create hosted zone.
